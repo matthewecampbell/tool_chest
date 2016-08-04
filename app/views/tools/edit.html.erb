@@ -1,0 +1,10 @@
+<h1> Edit Tool </h1>
+<%= form_for(@tool) do |f| %>
+  <%= f.label :name %></br>
+  <%= f.text_field :name %></br>
+  <%= f.label :quantity %></br>
+  <%= f.text_field :quantity %></br>
+  <%= f.label :price %></br>
+  <%= f.text_field :price %></br>
+  <%= f.submit %>
+  <% end %>

@@ -1,0 +1,12 @@
+<h1> Create a new tool </h1>
+<div class="tool">
+  <%= form_for(@tool) do |f| %>
+    <%= f.label :name %></br>
+    <%= f.text_field :name %></br>
+    <%= f.label :quantity %></br>
+    <%= f.text_field :quantity %></br>
+    <%= f.label :price %></br>
+    <%= f.text_field :price %></br>
+    <%= f.submit %>
+    <% end %>
+  </div>

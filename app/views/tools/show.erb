@@ -1,0 +1,6 @@
+<h1 class="header"> Welcome to your page, <%= @tool.name %>!</h1>
+<h3> Your Quantity: <%= @tool.quantity %>
+<h3> Your Price: <%= @tool.price %>
+<%= link_to "Edit Tool", edit_tool_path(@tool.id) %>
+<%= link_to "Delete Tool", tool_path(@tool.id), method: "Delete" %>
+<%= link_to "Back to Tools Page", tools_path %>
